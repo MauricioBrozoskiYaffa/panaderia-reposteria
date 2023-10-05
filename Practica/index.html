@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Messi Declias</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>  
+    <section id="inicio">
+        <header>
+            <div class="head-container">
+                <div class="logo">
+                    <h1>Messi Delicias</h1>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li>
+                            <a href="#inicio" onclick="seleccionar()">
+                                <i class="fa-solid fa-house"></i>
+                                <span>Inicio</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#sabores" onclick="seleccionar()">
+                                <i class="fa-solid fa-cake-candles"></i>
+                                <span>Sabores</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#panificacion" onclick="seleccionar()">
+                                <i class="fa-solid fa-bread-slice"></i>
+                                <span>Panificacion</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#blog" onclick="seleccionar()">
+                                <i class="fa-solid fa-pen"></i>
+                                <span>Blog</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contacto" onclick="seleccionar()">
+                                <i class="fa-solid fa-comments"></i>
+                                <span>Contacto</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+    
+                <div class="social">
+                    <a href="tel:+234-456-78">
+                        <i class="fa-solid fa-phone"></i>
+                        +234-456-78
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                    </a>
+                </div>
+                <div class="nav-responsive" id="bar" onclick="mostrarOcultar()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </header>
+
+        <div class="carrusel">
+            <div class="galery js-flickity" data-flickity-options='{"wrapAround":true, "pageDots":false, "autoPlay":true}'>
+
+                <div class="gallery-cell">
+                    <img src="img/iniciacion-a-la-pasteleria.jpg" alt="Portada">
+                </div>
+                <div class="gallery-cell">
+                    <img src="img/depositphotos_81216390-stock-photo-french-chocolate-fondant-cake.jpg" alt="Portada">
+                </div>
+                <div class="gallery-cell">
+                    <img src="img/reposteria-2.jpg" alt="Portada">
+                </div>
+                <div class="gallery-cell">
+                    <img src="img/Historia-de-la-pasteleria.jpg" alt="Portada">
+                </div>
+            </div>
+            <div class="info">
+                <h2>Rposteria Exquisitas para el paladar.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button>Leer Más</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="sabores">
+        <h2>Sabores</h2>
+        <div class="fila">
+            <div class="item">
+                <div class="icono">
+                    <img src="img/216_receta.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Tarta de Manzana</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="img/DSCN2368.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Tarta de Coco</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="img/c6edc4bfbda9-receta-tarta-tres-leches-1440x495.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Tarta de 3 Leches</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="item">
+                <div class="icono">
+                    <img src="img/istockphoto-524028593-612x612.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Tarta de Sacher</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="img/la-1x1-271-bd3464a74a98b9132a16475220343247-640-0.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Tarta de Brownie</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="img/chocotorta-sin-horno-600x450.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Chocotorta</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <button>Ver Más</button>
+    </section>
+
+    <section id="platos">
+        <h2>Panificacion</h2>
+
+        <div class="fila">
+            <div class="item">
+                <img src="img/CVGX5TPSLZCNNKAWYYZCLGLOU4.jpg" alt="">
+                <p>Bolitas de Fraile</p>
+            </div>
+            <div class="item">
+                <img src="img/321-bba3feffd18c905d4716958239678482-240-0.jpg" alt="">
+                <p>Ojo de Buey</p>
+            </div>
+            <div class="item">
+                <img src="img/criollos.jpg" alt="">
+                <p>Criollitos</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="item">
+                <img src="img/_98751603_1.jpg" alt="">
+                <p>Facturas</p>
+            </div>
+            <div class="item">
+                <img src="img/mini-cupcakes-1200x1200-1.jpg" alt="">
+                <p>CupCakes</p>
+            </div>
+            <div class="item">
+                <img src="img/surtido-de-panes.jpeg" alt="">
+                <p>Panes</p>
+            </div>
+        </div>
+
+        <button>Ver Más</button>
+    </section>
+
+    <sction id="blog">
+        <h2>Blog</h2>
+        <div  class="galery-blog js-flickity" data-flickity-options='{"wrapAround":true, "pageDots":true}'>
+         <div class="gallery-cell">
+            <div class="item">
+                <div class="foto">
+                    <img src="img/a5abec5930559a24b8ec4ac6febdd95b.jfif" alt="">
+                </div>
+                <div class="info">
+                    <h3>El arte de Cocinar</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quasi quos iure fugit eos molestiae.</p>
+                </div>
+            </div>
+         </div>
+
+         <div class="gallery-cell">
+            <div class="item">
+                <div class="foto">
+                    <img src="img/messi kids.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>¿Donde Estudiar Reposteria?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quasi quos iure fugit eos molestiae.</p>
+                </div>
+            </div>
+         </div>
+
+         <div class="gallery-cell">
+            <div class="item">
+                <div class="foto">
+                    <img src="img/64aeae51cd1ac.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>La Reposteria del 2023 Con los Mejores</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quasi quos iure fugit eos molestiae.</p>
+                </div>
+            </div>
+         </div>
+
+        </div>
+
+        <button>Leer Más</button>
+    </sction>
+
+    <section id="contacto">
+       <div class="fila">
+        <div class="col">
+            <h1>Messi Delicias</h1>
+        </div>
+        <div class="col">
+            <h3>Menú</h3>
+            <a href="#">Inicio</a>
+            <a href="#">Sabores</a>
+            <a href="#">Panificacion</a>
+            <a href="#">Blog</a>
+        </div>
+        <div class="col">
+            <h3>Chef</h3>
+            <a href="#">Messi L.A</a>
+            <a href="#">Mauricio B.Y</a>
+        </div>
+        <div class="col">
+            <h3>Social Media</h3>
+            <div class="media">
+                <i class="fa-brands fa-instagram"></i>
+                <a href="#">Instagram</a>
+            </div>
+            <div class="media">
+                <i class="fa-brands fa-square-x-twitter"></i>
+                <a href="#">X</a>
+            </div>
+        </div>
+        <div class="col">
+            <h3>Contacto</h3>
+            <input type="text" placeholder="Tu Correo">
+            <input type="submit" class="enviar">
+        </div>
+       </div>
+    </section>
+
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+</html>
